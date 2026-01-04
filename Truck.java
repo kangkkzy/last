@@ -10,10 +10,10 @@ public class Truck {
     private String previousPosition;
     private TruckStatusEnum status;
 
-    // 【修改】当前正在执行的指令
+    // 当前正在执行的指令
     private WorkInstruction currentInstruction;
 
-    // 【新增】任务队列：存储后续要执行的指令链
+    // 任务队列：存储后续要执行的指令链
     private Queue<WorkInstruction> taskQueue = new LinkedList<>();
 
     private TruckType type;
