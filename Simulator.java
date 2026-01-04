@@ -48,7 +48,7 @@ public class Simulator {
         nodes.add(createNode("Bay-01", LogicalLocation.TYPE_BERTH));
         nodes.add(createNode("Bay-02", LogicalLocation.TYPE_BERTH));
 
-        // 恢复紧凑型地图 (不扩容)
+        // 地图
         links.add(createLink("Road_In", "Gate", "Hub_Main", 100.0));
         links.add(createLink("Road_Out", "Hub_Main", "Gate", 100.0));
 
